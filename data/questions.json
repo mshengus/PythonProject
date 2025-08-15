@@ -1,0 +1,226 @@
+{
+  "title": "Mshengu Quiz",
+  "questions": [
+    {
+      "text": "What is the capital city of South Africa?",
+      "options": [
+        "Cape Town",
+        "Pretoria",
+        "Johannesburg",
+        "Durban"
+      ],
+      "correct_index": 1,
+      "explanation": "South Africa has three capitals; Pretoria is the administrative capital. Cape Town is the legislative capital, Bloemfontein the judicial.",
+      "hint": "It's the administrative capital."
+    },
+    {
+      "text": "Which data type is immutable in Python?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Set",
+        "Tuple"
+      ],
+      "correct_index": 3,
+      "explanation": "Tuples cannot be changed after creation; lists, dicts, and sets are mutable."
+    },
+    {
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Transfer Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correct_index": 0,
+      "explanation": "HTML is the standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "text": "In aquaponics, which fish is commonly used due to its hardiness?",
+      "options": [
+        "Salmon",
+        "Tilapia",
+        "Trout",
+        "Carp"
+      ],
+      "correct_index": 1,
+      "explanation": "Tilapia are hardy, fast-growing, and tolerate a wide range of water conditions\u2014ideal for aquaponics."
+    },
+    {
+      "text": "Which planet in our solar system is known for its prominent rings?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Saturn",
+        "Venus"
+      ],
+      "correct_index": 2,
+      "explanation": "Saturn's ring system is the most extensive and prominent in the solar system."
+    },
+    {
+      "text": "Which ocean borders South Africa to the west?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Southern Ocean"
+      ],
+      "correct_index": 0,
+      "explanation": "The Atlantic Ocean borders South Africa's west coast, while the Indian Ocean borders the east."
+    },
+    {
+      "text": "Which programming language is known for its snake logo?",
+      "options": [
+        "Java",
+        "Python",
+        "Ruby",
+        "C++"
+      ],
+      "correct_index": 1,
+      "explanation": "Python is represented by a snake logo, inspired by its name from 'Monty Python' comedy group."
+    },
+    {
+      "text": "What is the currency of South Africa?",
+      "options": [
+        "Rand",
+        "Dollar",
+        "Euro",
+        "Pound"
+      ],
+      "correct_index": 0,
+      "explanation": "The South African Rand (ZAR) is the official currency of South Africa."
+    },
+    {
+      "text": "Which is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct_index": 2,
+      "explanation": "Jupiter is the largest planet, with a diameter of about 142,984 km."
+    },
+    {
+      "text": "What is the process of growing plants without soil called?",
+      "options": [
+        "Hydroponics",
+        "Photosynthesis",
+        "Irrigation",
+        "Composting"
+      ],
+      "correct_index": 0,
+      "explanation": "Hydroponics is a method of growing plants without soil, using nutrient-rich water."
+    },
+    {
+      "text": "Which animal is known as the King of the Jungle?",
+      "options": [
+        "Tiger",
+        "Lion",
+        "Elephant",
+        "Leopard"
+      ],
+      "correct_index": 1,
+      "explanation": "The lion is often called the King of the Jungle, though it actually lives in savannas."
+    },
+    {
+      "text": "What is the boiling point of water at sea level?",
+      "options": [
+        "90\u00b0C",
+        "100\u00b0C",
+        "110\u00b0C",
+        "120\u00b0C"
+      ],
+      "correct_index": 1,
+      "explanation": "At sea level, water boils at 100 degrees Celsius (212 degrees Fahrenheit)."
+    },
+    {
+      "text": "Which continent is the Sahara Desert located on?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Australia",
+        "South America"
+      ],
+      "correct_index": 1,
+      "explanation": "The Sahara Desert is located in North Africa, the largest hot desert in the world."
+    },
+    {
+      "text": "Which programming language is primarily used for web styling?",
+      "options": [
+        "HTML",
+        "CSS",
+        "Python",
+        "Java"
+      ],
+      "correct_index": 1,
+      "explanation": "CSS (Cascading Style Sheets) is used for styling HTML web pages."
+    },
+    {
+      "text": "What is 15 multiplied by 6?",
+      "options": [
+        "80",
+        "90",
+        "95",
+        "100"
+      ],
+      "correct_index": 1,
+      "explanation": "15 \u00d7 6 = 90."
+    },
+    {
+      "text": "Which is the smallest prime number?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 2,
+      "explanation": "2 is the smallest and the only even prime number."
+    },
+    {
+      "text": "In which year did South Africa host the FIFA World Cup?",
+      "options": [
+        "2006",
+        "2010",
+        "2014",
+        "2018"
+      ],
+      "correct_index": 1,
+      "explanation": "South Africa hosted the FIFA World Cup in 2010, the first time in Africa."
+    },
+    {
+      "text": "Which blood type is known as the universal donor?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "O negative"
+      ],
+      "correct_index": 3,
+      "explanation": "O negative blood can be given to patients of any blood type."
+    },
+    {
+      "text": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correct_index": 1,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century."
+    },
+    {
+      "text": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Gd",
+        "Au",
+        "Go"
+      ],
+      "correct_index": 2,
+      "explanation": "The chemical symbol for gold is Au, from the Latin word 'Aurum'."
+    }
+  ]
+}

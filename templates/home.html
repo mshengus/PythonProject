@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>Welcome!</h2>
+    <p>Enter your name and hit Start to begin the quiz.</p>
+    <form method="POST">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="e.g., Sizwe" required>
+        <button type="submit">Start Quiz</button>
+    </form>
+</div>
+{% endblock %}

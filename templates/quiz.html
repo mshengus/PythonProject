@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="progress">
+    <div class="bar" style="width: {{ progress.percent }}%"></div>
+    <div class="meta">{{ progress.current }}/{{ progress.total }}</div>
+</div>
+
+<div class="card">
+    <h2>Question {{ progress.current }}</h2>
+    <p class="question">{{ question.text }}</p>
+    <form method="POST">
+        <ul class="options">
+            {% for opt in question.options %}
+            <li>
+                <label class="option">
+                    <input type="radio" name="choice" value="{{ loop.index0 }}">
+                    <span>{{ opt }}</span>
+                </label>
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="actions">
+            <button type="submit">Next</button>
+        </div>
+    </form>
+    {% if question.get('hint') %}
+    <details class="hint">
+        <summary>Need a hint?</summary>
+        <p>{{ question.hint }}</p>
+    </details>
+    {% endif %}
+</div>
+{% endblock %}

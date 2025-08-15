@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>Great job, {{ result.name }}!</h2>
+    <p class="score">You scored <strong>{{ result.score }}</strong> out of <strong>{{ result.total }}</strong> ({{ result.percent }}%).</p>
+    <div class="actions">
+        <a class="link" href="{{ url_for('restart') }}">Try Again</a>
+    </div>
+</div>
+
+<div class="card">
+    <h3>Review</h3>
+    <ol class="review">
+        {% for item in result.review %}
+        <li class="review-item">
+            <p class="question">{{ item.question }}</p>
+            <ul class="options">
+                {% for opt in item.options %}
+                    {% set is_selected = (loop.index0 == item.selected) %}
+                    {% set is_correct = (loop.index0 == item.correct) %}
+                    <li class="option
+                               {% if is_correct %} correct{% endif %}
+                               {% if is_selected and not is_correct %} wrong{% endif %}">
+                        {{ opt }}
+                        {% if is_correct %}<span class="badge">Correct</span>{% endif %}
+                        {% if is_selected and not is_correct %}<span class="badge bad">Your choice</span>{% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+            {% if item.explanation %}
+            <p class="explain"><em>Why:</em> {{ item.explanation }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+{% endblock %}
